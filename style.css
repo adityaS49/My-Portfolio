@@ -915,7 +915,7 @@ background-blend-mode: screen;
     }
 
 }
-@media (max-width:350px){
+@media (max-width:400px){
     .contain{
         width: 311px;
     }
