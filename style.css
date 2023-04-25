@@ -330,15 +330,12 @@ background-blend-mode: screen;
 .socials_cont{
     padding: 10px 10px;
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
 }
 .social{
     display: flex;
     flex-direction: row;
     gap: 3rem;
     max-width: 3rem;
-    margin-left: 2rem;
 }
 .social li{
     padding: 2px 2px;
@@ -917,5 +914,28 @@ background-blend-mode: screen;
         
     }
 
+}
+@media (max-width:350px){
+    .contain{
+        width: 311px;
+    }
+    .social{
+        gap: 2rem;
+    }
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-info p{
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        position: relative;
+        /* width: 100%; */
+    }
 }
 
